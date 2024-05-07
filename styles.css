@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* 背景色を薄いグレーに変更 */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* セクションを縦に配置 */
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* セクションの間隔を適切に設定 */
+}
+
+img {
+    width: 100%; /* 横幅を100%に設定 */
+    height: auto; /* 高さを自動調整 */
+    margin-top: 20px;
+}
+
+p {
+    max-width: 90%; /* テキストの幅を制限 */
+    margin: 0 auto; /* テキストを中央揃え */
+    padding: 10px; /* テキストの周囲に余白を追加 */
+    background-color: #f0f0f0; /* テキストの背景色をグレーに設定 */
+}
